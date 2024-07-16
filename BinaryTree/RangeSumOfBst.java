@@ -43,6 +43,7 @@ public class RangeSumOfBst {
         root.left.right = new Node(7);
         root.right.left = new Node(0);
         root.right.right = new Node(18);
+        root.left.right.left = new Node(10);
         System.out.println("Sum of nodes with value between 7 and 15 is: " + rangeSumBST(root, 7, 15));
     }
 }
