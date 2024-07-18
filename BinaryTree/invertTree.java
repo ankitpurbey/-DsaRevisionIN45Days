@@ -27,13 +27,8 @@ public class invertTree {
     }
 
     public static void main(String[] args) {
-        invertTree bt = new invertTree();
-        bt.root = new Node(4);
-        bt.root.left = new Node(2);
-        bt.root.right = new Node(7);
-        bt.root.left.left = new Node(1);
-        bt.root.left.right = new Node(3);
-        bt.root.right.right = new Node(6);
+        invertTree newNode = new invertTree();
+        newNode.add(8);
     }
 }
 
