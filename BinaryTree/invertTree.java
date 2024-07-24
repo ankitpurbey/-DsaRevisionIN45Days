@@ -1,4 +1,4 @@
-package BinaryTree;
+
 
 public class invertTree {
     public class Node{
@@ -14,21 +14,23 @@ public class invertTree {
      public invertTree(){
         root = null;
     }
-    public static Node invert(Node root){
-        if(root==null){
-            return root;
+    public static Node invert(Node r){
+        if(r==null){
+            return r;
         }
-        Node temp = root.left;
-        root.left =root.right;
-        root.right = temp;
-        invert(root.left);
-        invert(root.right);
-        return root;
+        Node temp = r.left;
+        r.left =r.right;
+        r.right = temp;
+        invert(r.left);
+        invert(r.right);
+        return r;
     }
-
     public static void main(String[] args) {
-        invertTree newNode = new invertTree();
-        newNode.add(8);
+        invertTree newNode  = new invertTree();
+        newNode.root = newNode.new Node(5);
+        newNode.root.left = newNode.new Node(2);
+        newNode.root.right = newNode.new Node(7);
+        invert(null);
+
     }
 }
-
