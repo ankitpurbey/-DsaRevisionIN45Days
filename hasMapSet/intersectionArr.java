@@ -23,3 +23,4 @@ public class intersectionArr {
         System.out.println(commonNumber(arr1, arr2)); 
     }
 }
+// time complexity o(n)
