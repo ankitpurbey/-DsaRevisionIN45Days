@@ -12,7 +12,7 @@ public class majorityFreq {
     public static void countFreq(int arr[]){
         HashMap<Integer,Integer> map = new HashMap<>();
         int N =arr.length;
-        for(int i=0; i<arr.length; i++){
+        for(int i=0; i<N; i++){
             if(map.containsKey(arr[i])){
                 map.put((arr[i]), map.get(arr[i]+1));
             }
@@ -25,15 +25,11 @@ public class majorityFreq {
                 System.out.println("Majority element is " + key);
                 
             }
-            else{
-                System.out.println(0);
-            }
         }
 
     }
 
     public static void main(String[] args) {
-        int n = 9;
         int arr[] ={1,2,4,5,6,1,1,3,1};
         countFreq(arr);
     }
