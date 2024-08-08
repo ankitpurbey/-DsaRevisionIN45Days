@@ -37,7 +37,7 @@ public class passCheckerrr {
         int len = s.length();
         char[] c = s.toCharArray();
         System.out.println(checkPassword(c, len));
-        scanner.close();
+        //7scanner.close();
     }
 }
 
