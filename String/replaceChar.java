@@ -1,10 +1,6 @@
 package String;
 import java.util.Scanner;
 public class replaceChar {
-
-    
-
-
     public static void replaceCharacter(char[] str, int n, char ch1, char ch2) {
         for (int i = 0; i < n; i++) {
             if (str[i] == ch1) {
