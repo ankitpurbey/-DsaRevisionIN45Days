@@ -19,7 +19,12 @@ public class AugShiftQue {
     public static void main(String[] args) {
         Scanner sc = new Scanner (System.in);
         int n = sc.nextInt();
-        int arr[]=  {5,6,4,5,2,3,4};
+        //test case 1
+        
+        
+        //int arr[]=  {5,6,4,5,2,3,4};
+        //test case 2
+        int arr[] ={5,4,3,2,1};
         System.out.println(stockNegativeReaturnDay(n, arr));
 
     }
