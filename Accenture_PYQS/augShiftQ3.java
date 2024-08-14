@@ -11,7 +11,10 @@ public class augShiftQ3 {
         return count;
     }
     public static void main(String[] args) {
-        int arr[] ={12,21,3,4};
+        int arr[] ={12,21,3,4}; // output 3
+
+        //testCase 2
+        // int arr[] = {1,2}  // output 0
         System.out.println(countMultipleOfThree(arr));
 
     }
