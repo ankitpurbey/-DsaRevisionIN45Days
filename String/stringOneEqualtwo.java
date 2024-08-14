@@ -10,10 +10,10 @@ public class stringOneEqualtwo {
             hs.add(str2.charAt(i));
         }
         for(int i=0; i<str.length(); i++){
-            if(hs.contains(str.charAt(i))){
-               count =count+count;
+            if(!hs.contains(str.charAt(i))){
+               count++;
             }
-            
+           
         }
         return count;
     }
