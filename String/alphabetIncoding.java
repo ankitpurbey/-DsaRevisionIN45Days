@@ -11,13 +11,18 @@ public class alphabetIncoding {
             else{
                 if (count>0) {
                     ans += (char)(64+count);
+                    count =0;
                 }
             }
         }
-
+        if(count>0){
+            ans += (char)(64+count);
+        }
+        return ans;
     }
     public static void main(String[] args) {
         String str ="11101101111";
+        System.out.println(convertToAlphabet(str));
         
     }
 }
