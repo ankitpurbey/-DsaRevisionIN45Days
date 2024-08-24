@@ -20,7 +20,8 @@ public class countOfSecondLargest {
         return count;
     }
     public static void main(String[] args) {
-        int arr[] ={5,5,5,5,5};
+        //int arr[] ={5,5,5,5,5}; // output 0
+        int arr[] ={1,2,3,4,5,4,5}; //output 2
         System.out.println(countSecondLargest(arr));
 
     }
