@@ -10,7 +10,8 @@ public class fourSum {
         for(int i=0; i<arr.length-4; i++){
             if(arr[i] + arr[i+1] +arr[i+2] +arr[i+3] +arr[i+4] ==target){
                 result.add(i);
-                result.add(i+1);result.add(i+2);
+                result.add(i+1);
+                result.add(i+2);
                 result.add(i+3);
             }
     }
